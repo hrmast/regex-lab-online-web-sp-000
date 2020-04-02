@@ -17,7 +17,8 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.match //
     return true
-  
+  else
+    return false
   end
 end
 
